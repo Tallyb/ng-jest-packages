@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --runInBand --coverage",
     "test:watch": "jest --watch",
-    "test:only": "jest"
+    "test:only": "jest --no-cache"
   },
   "dependencies": {
     "@angular/cli": "^1.1.1",
