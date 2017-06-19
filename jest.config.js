@@ -8,6 +8,6 @@ module.exports = {
   setupTestFrameworkScriptFile: '<rootDir>/test/setupJest.ts',
   verbose: true,
   projects: [
-    '<rootDir>/packages/'
+    '<rootDir>/packages/*'
   ]
 };
