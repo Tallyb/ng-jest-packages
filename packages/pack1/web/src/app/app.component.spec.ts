@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
+    debugger;
     TestBed.configureTestingModule({
       declarations: [
         AppComponent

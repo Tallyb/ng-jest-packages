@@ -9,5 +9,8 @@ module.exports = {
   verbose: true,
   projects: [
     '<rootDir>/packages/*'
-  ]
+  ],
+  moduleDirectories: [
+    "<rootDir>/node_modules"
+  ],
 };
